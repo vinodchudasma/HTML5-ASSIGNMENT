@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .main{
+            width: auto;
+            height: 100vh;
+            /* background: red; */
+        }
+        .header{
+            width: auto;
+            height: 10vh;
+            background: rgb(161 161 170);
+        }
+        .red{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: red;
+            
+        }
+        .yellow{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: yellow;
+            
+        }
+        .green{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: green;
+            
+        }
+        .header_1{
+            display: flex;
+            padding-left: 20px;
+            padding-top: 10px;
+            gap: 10px;
+            
+
+        }
+        .header_text{
+            font-size: 30px;
+            margin-left: 35%;
+        }
+        
+        .contain{
+            width: auto;
+            height: 87vh;
+            background: black;
+        }
+        .header_2{
+            padding-top: 10px;
+        }
+        ul{
+            list-style: none;
+            color: black;
+            display: flex;
+            padding-left: 30px;
+            gap: 40px;
+            font-size: 20px;
+        }
+        .img1{
+            height: 30px;
+            width: 30px;
+        }
+        .img2{
+            height: 25px;
+            width: 25px;
+        }
+        .contain h1{
+            color:white ;
+            text-align: center;
+            font-size: 50px;
+            padding-top: 80px;
+        }
+        .contain video{
+            height: 400px;
+            width: 700px;
+            margin-top: 90px;
+            margin-left: 370px;
+        }
+        .footar{
+            width: auto;
+            height: 3vh;
+            background-color: rgb(161 161 170);
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header_1">
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="green"></div>
+                <div class="header_text">HTML5 Video</div>
+            </div>
+            <div class="header_2">
+                <ul>
+                <li><img class="img1" src="./img/book-open-svgrepo-com.svg" alt=""></li>
+                <li><img class="img2" src="./img/menu-navigation-grid-1530-svgrepo-com.svg" alt=""></li>
+                <li>Apple</li>
+                <li>Yahoo!</li>
+                <li>Google Maps</li>
+                <li>You Tube</li>
+                <li>Wikipedia</li>
+                <li>News(492)</li>
+                <li>Popular</li>
+                 </ul>
+            </div>
+        </div>
+        <div class="contain">
+            <h1>HTML5 VIDEO</h1>
+            <video src="./img/sun.mp4" controls></video>
+        </div>
+        <div class="footar"></div>
+    </div>
+</body>
+</html>
